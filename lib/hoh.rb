@@ -46,4 +46,5 @@ def naming_system
   nested_hash[sub_category:][sub_category:] = PORTION_2
   nested_hash[sub_category:][sub_category:][sub_category:] = PORTION_3
   nested_hash[sub_category:][sub_category:][sub_category:][sub_category:] = PORTION_4
+  nested_hash
 end
