@@ -41,10 +41,9 @@ def naming_system
   #  Species
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
-  nested_hash = PORTION_1
-
-  nested_hash[sub_category:][sub_category:] = PORTION_2
-  nested_hash[sub_category:][sub_category:][sub_category:] = PORTION_3
-  nested_hash[sub_category:][sub_category:][sub_category:][sub_category:] = PORTION_4
-  nested_hash
+ new_hash= PORTION_1
+ new_hash[:sub_category][:sub_category][:sub_category]= PORTION_2
+ new_hash[:sub_category][:sub_category][:sub_category][:sub_category]=PORTION_3
+ new_hash[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category]= PORTION_4
+ new_hash
 end
