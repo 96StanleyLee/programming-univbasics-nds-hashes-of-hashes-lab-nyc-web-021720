@@ -47,6 +47,6 @@ def naming_system
  new_hash[:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_3
  new_hash[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_4
 
-
+new_hash
 
 end
