@@ -6,26 +6,26 @@
 #
  PORTION_1 = {
    label: "Kingdom",
-   sub_category: {
+   sub_category: { #1
      label: "Phylum",
-     sub_category: {
+     sub_category: { #2
        label: "Class"
      }
    }
  }
 #
- PORTION_2 = {
+ PORTION_2 = { #3 before
    label: "Order"
  }
 #
- PORTION_3 = {
+ PORTION_3 = { #4 before
    label: "Family",
    sub_category: {
      label: "Genus",
    }
  }
 #
- PORTION_4 = {
+ PORTION_4 = { #5
    label: "Species",
    sub_category: nil
  }
