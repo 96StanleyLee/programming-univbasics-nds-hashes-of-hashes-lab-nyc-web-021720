@@ -43,4 +43,7 @@ def naming_system
   # HoH all the way to Species!
   nested_hash = PORTION_1
 
+  nested_hash[sub_category:][sub_category:] = PORTION_2
+  nested_hash[sub_category:][sub_category:][sub_category:] = PORTION_3
+  nested_hash[sub_category:][sub_category:][sub_category:][sub_category:] = PORTION_4
 end
